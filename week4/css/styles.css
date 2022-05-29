@@ -1,0 +1,391 @@
+/* styles for my website */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: papayawhip; */
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,p{
+    margin: 15px 4px;
+}
+li{
+    margin-left: 60px;
+}
+
+header {
+    background:#ffd901;
+    overflow:hidden;
+    padding: 3px 0;
+}
+
+#inner-header,
+#inner-footer {
+    margin:20px auto;
+    max-width: 1200px;
+}
+#logo_img{
+    float: left;
+    width: 320px;
+    margin: -30px 10px;
+}
+
+.logo{
+    float:left;
+    margin:40px;
+}
+
+#logo_text{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-size: 30pt;
+    margin-left:20px;
+    margin-top: 50px;
+    font-weight: bold;
+
+}
+nav ul {
+    float: right;
+    margin-top: 57px;
+    margin-right: 95px;
+}
+
+nav li {
+    float: left;
+    margin-left: 80px;
+    list-style-type:none;
+    
+}
+.current {
+    color: #ff5682;
+    }
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+#wrapper{
+    margin:20px auto;
+    max-width: 1200px;
+}
+
+#hero{
+    height: 300px;
+    background: red;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+main {
+    width:100%;
+    padding:50px;
+    margin-bottom: 20px;
+    float:left;
+
+}
+
+#daily_photo{ float:left;
+    margin:20px 20px;
+    width: 525px;
+
+}
+.place_img{
+    width: 80%;
+    margin: 2px;
+
+}
+
+#image-travel{
+    width: 80%;
+    margin: 72px;
+}
+
+.place{
+    display: block;
+    max-width: 100%;
+    margin:30px;
+}
+
+
+#my_photo{
+    float:left;
+    margin:20px 20px;
+    width: 280px;
+}
+#mamp_title, #error_title{
+    float:left;
+    clear:both;
+}
+#mamp,#error{
+    float:left;
+    margin:20px 20px;
+    width: 100%;
+    clear:both;
+}
+
+.welcome-logout{
+    margin:20px 20px;
+    color: red;
+}
+
+aside{
+    width:30%;
+    padding: 5px;
+    float: right;
+}
+
+footer {
+    border-top: 1px solid #666;
+    height:50px;
+    clear:both;
+    height: 50px;
+    line-height: 50px;
+}
+
+footer li {
+    float:left;
+    margin-right:30px;
+    list-style-type: none;
+}
+
+
+
+/* styles for the FORM */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+form {
+    width: 600px;
+    margin: 20px auto;
+
+}
+
+fieldset {
+    border: 1px solid #f42439;
+    padding: 10px;
+    background-color: #ffbeae;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.error {
+    display: block;
+    color: red;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+form ul {
+    margin-left: 10px;
+    list-style-type: none;
+    margin-bottom: 7px;
+}
+
+select, textarea {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 140px;
+    resize: none;
+}
+
+
+/*gallery page */
+table {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    margin: 5px auto;
+    width: 160%;
+}
+th, td {
+    border: 1px solid blue;
+}
+.travel_img {
+    padding: 5px 5px 0 5px;
+    width: 100%;
+}
+
+.travel_table{
+    width: 120%;
+}
+.text {
+    padding: 10px;
+}
+.cb {
+    clear:  both;
+}
+
+
+/* START SLIDE SHOW FOR HOME PAGE
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #ff5682;
+    padding: 2px 16px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  /* END SLIDESHOW HOMEPAGE*/
+
+  .top5{
+    float: left;
+    width: 100%;
+    padding-right: 20px;}
+#container{
+        display: flex;
+    }
+
+/* Flex box*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .flex-item-left {
+    padding: 10px;
+    flex: 30%;
+  }
+  
+  .flex-item-right {
+    padding: 10px;
+    flex: 65%;
+  }
+
+  .flex-item-left-daily {
+    padding: 10px;
+    flex: 47%;
+  }
+  
+  .flex-item-right-daily {
+    padding: 10px;
+    flex: 47%;
+  }
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+
+    .flex-item-right-daily, .flex-item-left-daily {
+        flex: 100%;
+      }
+  }
